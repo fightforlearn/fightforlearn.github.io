@@ -27,6 +27,6 @@ redirect_from:
 ## 联系方式
 
 - 邮箱：<a href="mailto:xingyue_elaine@stu.pku.edu.cn">xingyue_elaine@stu.pku.edu.cn</a>
-- GitHub：[fightforlearn](https://github.com/fightforlearn)
+- GitHub：[xingyue-pku](https://github.com/xingyue-pku)
 - ORCID：[0009-0002-4718-1964](https://orcid.org/0009-0002-4718-1964)
 - 所属：北京大学信息管理系

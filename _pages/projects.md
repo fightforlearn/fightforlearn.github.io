@@ -11,14 +11,14 @@ author_profile: true
 
 中文学术评议场景下的本地大模型 Agent 评测基准。围绕"论文要点抽取 / 论点-证据识别 / 维度化质量评分 / 一致性判断"四个任务族，搭建可在本地复现的评测协议。
 
-- 仓库：[github.com/fightforlearn/ScholEval-AgentBench](https://github.com/fightforlearn/ScholEval-AgentBench)
+- 仓库：[github.com/xingyue-pku/ScholEval-AgentBench](https://github.com/xingyue-pku/ScholEval-AgentBench)
 - 状态：v0 已发布（2026-05）；v1 双 Agent 协作版规划中
 
 ### PaperForge
 
 面向方法、实证与数据分析类论文的**协议化写作工作流**。围绕"选题锁定 → 文献铺垫 → 研究问题锁定 → 论点-证据矩阵 → 失败模式检查 → 完整性 gate → 修订 gate"提供显式的检查点与模板，配套可作为 LLM Agent 的 skill 直接调用。
 
-- 仓库：[github.com/fightforlearn/PaperForge](https://github.com/fightforlearn/PaperForge)
+- 仓库：[github.com/xingyue-pku/PaperForge](https://github.com/xingyue-pku/PaperForge)
 - 包含：SKILL.md（Agent skill 定义）、QUICKSTART.md、11 个工作流模板
 
 ---

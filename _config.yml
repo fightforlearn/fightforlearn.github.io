@@ -13,9 +13,9 @@ title                    : "邢玥 · Yue Xing"
 title_separator          : "·"
 name                     : &name "邢玥"
 description              : &description "北京大学博士研究生 · 学术评议机制与决策建模研究"
-url                      : https://fightforlearn.github.io
+url                      : https://xingyue-pku.github.io
 baseurl                  : ""
-repository               : "fightforlearn/fightforlearn.github.io"
+repository               : "xingyue-pku/xingyue-pku.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -50,7 +50,7 @@ author:
   bitbucket        : # Username
   codepen          : # Username
   dribbble         : # Username
-  github           : "fightforlearn"
+  github           : "xingyue-pku"
   kaggle           : # Username
   stackoverflow    : # User number
 
