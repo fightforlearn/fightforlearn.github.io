@@ -1,67 +1,65 @@
 ---
 layout: archive
-title: "Projects"
+title: "研究项目"
 permalink: /projects/
 author_profile: true
 ---
 
-## ScholEval-AgentBench
-**Benchmark for locally-run LLM agents on Chinese scholarly evaluation tasks**
+## 自主项目
 
-A benchmark for evaluating how locally-run LLM-powered agents perform on Chinese scholarly evaluation tasks, with focus on **value alignment** between agent reasoning and human expert judgment.
+### ScholEval-AgentBench
 
-- **Task families** (v0): `paper_summarization`, `claim_evidence_extraction`, `quality_dimension_scoring`, `consistency_check`
-- **Setup**: Single-agent + tool use, local environment (LM Studio compatible)
-- **Privacy-aware**: All public dev samples are de-identified
-- **Repository**: [github.com/fightforlearn/ScholEval-AgentBench](https://github.com/fightforlearn/ScholEval-AgentBench)
-- **Status**: v0 released 2026-05; v1 (planner + worker dual-agent) planned for 2026 H2
+中文学术评议场景下的本地大模型 Agent 评测基准。围绕"论文要点抽取 / 论点-证据识别 / 维度化质量评分 / 一致性判断"四个任务族，搭建可在本地复现的评测协议。
 
----
+- 仓库：[github.com/fightforlearn/ScholEval-AgentBench](https://github.com/fightforlearn/ScholEval-AgentBench)
+- 状态：v0 已发布（2026-05）；v1 双 Agent 协作版规划中
 
-## 基于教育大数据的研究生培养画像研究
-**Postgraduate Cultivation Portrait Research Based on Educational Big Data**
+### PaperForge
 
-研究生院资助项目。围绕业务需求、导学关系、科研成果、培养质量监测等问题，构建覆盖首页、院系、教师、学生、对比分析的研究生培养画像分析平台，并探索博士生延期毕业风险的早期识别。
+面向方法、实证与数据分析类论文的**协议化写作工作流**。围绕"选题锁定 → 文献铺垫 → 研究问题锁定 → 论点-证据矩阵 → 失败模式检查 → 完整性 gate → 修订 gate"提供显式的检查点与模板，配套可作为 LLM Agent 的 skill 直接调用。
 
-A graduate school-funded project. Built a postgraduate cultivation portrait analytics platform (homepage, college view, faculty view, student view, comparative analysis) and explored early identification of doctoral late-graduation risk.
-
-**主要成果 / Key outputs**
-
-- 1 套平台：研究生培养画像分析平台（前端 + 后端 + 多角色视图）
-- 212 张业务表治理：博士培养过程数据的清洗、关联与对象化整理
-- 3 类指标体系：业务指标 + 培养指标 + 监测指标
-- 延期毕业预警模型：约 15,872 条 2008 年后博士生数据，从学生 / 导师 / 院系三类因素提取特征，建模识别延期风险
-
-**方法 / Methods**：多轮专家访谈 · 数据治理 · 指标构建 · 可解释机器学习
-
-**System screenshots / 系统截图**
-
-<img src="{{ site.baseurl }}/images/grad_school_dashboard.png" alt="Postgraduate cultivation portrait — college-level dashboard" style="max-width: 700px; width: 100%; border: 1px solid #ddd; padding: 4px; margin-top: 16px;">
-
-<p style="text-align:center; color:#666; font-size:13px; margin-top:4px;">院系分析视图 · College-level analytics view</p>
-
-<img src="{{ site.baseurl }}/images/grad_school_analytics.png" alt="Research output and teaching index analytics" style="max-width: 700px; width: 100%; border: 1px solid #ddd; padding: 4px; margin-top: 16px;">
-
-<p style="text-align:center; color:#666; font-size:13px; margin-top:4px;">科研成果 / 教学优秀指数 / 教师维度对比 · Research, teaching, faculty analytics</p>
+- 仓库：[github.com/fightforlearn/PaperForge](https://github.com/fightforlearn/PaperForge)
+- 包含：SKILL.md（Agent skill 定义）、QUICKSTART.md、11 个工作流模板
 
 ---
 
-## National Natural Science Foundation of China (NSFC) — Participant
-**Research on Academic Ability Evaluation Language Model Enhanced by Knowledge and Reasoning Domain Adaptation**
-基于知识和推理领域化增强的学术能力评价语言模型研究
+## 参与项目
 
-- Project No. 62577003, NSFC General Program
-- PI: Prof. Huang Wenbin (Peking University)
-- Duration: 2026-01 to 2029-12
-- Funding: 500,000 RMB (direct)
-- My role: Participant
+### 基于教育大数据的研究生培养画像研究
+
+研究生院资助项目。围绕业务需求、导学关系、科研成果与培养质量监测等问题，构建覆盖首页、院系、教师、学生、对比分析的研究生培养画像分析平台，并探索博士生延期毕业风险的早期识别。
+
+**主要成果**
+
+- 一套平台：研究生培养画像分析平台（多角色视图）
+- 业务表治理：博士培养过程数据的清洗、关联与对象化整理
+- 三类指标体系：业务指标 + 培养指标 + 监测指标
+- 延期毕业预警模型：基于多类因素提取特征、识别延期风险
+
+**方法**：多轮专家访谈 · 数据治理 · 指标构建 · 可解释机器学习
+
+<img src="{{ site.baseurl }}/images/grad_school_dashboard.png" alt="院系分析视图" style="max-width: 700px; width: 100%; border: 1px solid #ddd; padding: 4px; margin-top: 16px;">
+
+<p style="text-align:center; color:#666; font-size:13px; margin-top:4px;">院系分析视图</p>
 
 ---
 
-## Peking University AI Special Support Plan — Participant
-**Research on Agents for Academic Paper Evaluation**
-学术论文评价智能体研究
+### 国家自然科学基金面上项目（参与）
 
-- PI: Prof. Huang Wenbin (Peking University)
-- 2026
-- My role: Participant
+**基于知识和推理领域化增强的学术能力评价语言模型研究**
+
+- 项目批准号：62577003
+- 主持人：黄文彬（北京大学）
+- 起止时间：2026-01 至 2029-12
+- 直接经费：50 万元
+- 我的角色：参与人
+
+---
+
+### 北京大学信息管理系人工智能专项支持计划（参与）
+
+**学术论文评价智能体研究**
+
+- 主持人：黄文彬（北京大学）
+- 年份：2026
+- 我的角色：参与人

@@ -1,18 +1,17 @@
 ---
 layout: archive
-title: "CV"
+title: "简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-## Education
+## 教育背景
 
-- **Ph.D. in Big Data Management and Application** (expected 2027)
-  Department of Information Management, Peking University
-  大数据管理与应用，北京大学信息管理系
+- **博士研究生**（在读，预计 2027 年毕业）
+  北京大学信息管理系 · 大数据管理与应用方向
 
 ---
 
-*More sections coming soon.*
+*更多内容待补充。*

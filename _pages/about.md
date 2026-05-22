@@ -7,66 +7,26 @@ redirect_from:
   - /about.html
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start;">
+## 简介
 
-<div style="flex: 1 1 380px;">
+北京大学信息管理系大数据管理与应用方向博士研究生，预计 2027 年毕业。
 
-<h2>About</h2>
+研究关注**学术评议机制与决策建模**——围绕评议的内部环节、影响因素及其聚合方式展开。在回到学术界之前，曾在头部互联网教育公司从事教研工作约 6 年，对教育产业的实际落地与制度约束有一手经验。
 
-<p>I am a PhD candidate in Big Data Management and Application at the Department of Information Management, Peking University, expected to graduate in 2027.</p>
+## 研究兴趣
 
-<p>My research focuses on <strong>AI value alignment in academic evaluation</strong> — how LLM-powered agents reason about scholarly artifacts compared to human experts, and what this means for the governance of academic evaluation in the LLM era.</p>
+- 学术评议机制与影响因素研究
+- 评议决策的建模与仿真
+- 智能技术与学术评价的结合
+- 信息行为与科研治理
 
-<p>My work sits at the intersection of:</p>
+## 求职方向
 
-<ul>
-  <li><strong>Policy research</strong> on academic evaluation systems and their evolution under AI integration</li>
-  <li><strong>LLM agent design</strong> for scholarly evaluation tasks</li>
-  <li><strong>Mixed-methods empirical research</strong> combining expert interviews, large-scale review datasets, and benchmarking</li>
-</ul>
+2027 年起，**开放在北京的政策研究机构、智库、央企国企、高校及学术信息服务单位的职位讨论**。
 
-<p>I bring 6+ years of industry experience from leading Chinese EdTech companies before returning to academia, which shapes my research with attention to practical deployment, institutional constraints, and stakeholder dynamics.</p>
+## 联系方式
 
-<p><strong>I am open to discussions about positions in policy research institutes, think tanks, central enterprises, and university libraries in Beijing starting 2027.</strong></p>
-
-</div>
-
-<div style="flex: 1 1 380px;">
-
-<h2>简介</h2>
-
-<p>北京大学信息管理系大数据管理与应用方向的博士研究生，预计 2027 年毕业。</p>
-
-<p>研究专注于 <strong>AI 时代学术评价中的价值观对齐问题</strong> —— 大语言模型驱动的智能体（LLM agent）如何对学术成果做出判断、与人类专家判断有何差异，以及这种差异对 LLM 时代学术评价治理的意义。</p>
-
-<p>研究跨越三个层面：</p>
-
-<ul>
-  <li><strong>政策研究</strong>：学术评价制度在 AI 介入下的演化与治理路径</li>
-  <li><strong>LLM 智能体设计</strong>：面向学术评价场景的 agent 系统</li>
-  <li><strong>混合方法实证</strong>：专家访谈、大规模评审数据、benchmark 评测多方法结合</li>
-</ul>
-
-<p>回到学术界之前有 6 年以上互联网教育大厂从业经验，让我的研究始终关注落地可行性、制度约束与利益相关者动态。</p>
-
-<p><strong>目前开放 2027 年起在北京的政策研究机构、智库、央企国企、高校等单位的职位讨论。</strong></p>
-
-</div>
-
-</div>
-
----
-
-## Research Interests / 研究兴趣
-
-- AI value alignment in scholarly evaluation · 学术评价场景下的 AI 价值观对齐
-- Peer review mechanism & policy · 同行评议机制与政策研究
-- LLM-powered agents for scholarly tasks · 大模型智能体在学术任务中的应用
-- Governance of AI in academic content production · AI 时代学术内容生产的治理
-
-## Contact
-
-- Email: <a href="mailto:xingyue_elaine@stu.pku.edu.cn">xingyue_elaine@stu.pku.edu.cn</a>
-- GitHub: [fightforlearn](https://github.com/fightforlearn)
-- ORCID: [0009-0002-4718-1964](https://orcid.org/0009-0002-4718-1964)
-- Affiliation: Peking University · 北京大学
+- 邮箱：<a href="mailto:xingyue_elaine@stu.pku.edu.cn">xingyue_elaine@stu.pku.edu.cn</a>
+- GitHub：[fightforlearn](https://github.com/fightforlearn)
+- ORCID：[0009-0002-4718-1964](https://orcid.org/0009-0002-4718-1964)
+- 所属：北京大学信息管理系

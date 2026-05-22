@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yue Xing | 邢玥"
-title_separator          : "-"
-name                     : &name "Yue Xing (邢玥)"
-description              : &description "PhD candidate at Peking University · Policy research on AI value alignment in academic evaluation"
+locale                   : "zh-CN"
+site_theme               : "default"
+title                    : "邢玥 · Yue Xing"
+title_separator          : "·"
+name                     : &name "邢玥"
+description              : &description "北京大学博士研究生 · 学术评议机制与决策建模研究"
 url                      : https://fightforlearn.github.io
 baseurl                  : ""
 repository               : "fightforlearn/fightforlearn.github.io"
@@ -23,11 +23,11 @@ repository               : "fightforlearn/fightforlearn.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yue Xing"
+  name             : "邢玥"
   pronouns         : # example: "she/her"
-  bio              : "PhD candidate · Policy research on AI in academic evaluation"
-  location         : "Beijing, China"
-  employer         : "Peking University, Dept. of Information Management"
+  bio              : "北京大学博士研究生 · 学术评议机制与决策建模"
+  location         : "北京"
+  employer         : "北京大学信息管理系"
   uri              : # URL
   email            : "xingyue_elaine@stu.pku.edu.cn"
 
