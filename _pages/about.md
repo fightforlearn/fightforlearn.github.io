@@ -66,7 +66,7 @@ redirect_from:
 
 ## Contact
 
-- Email: xingyue_elaine [at] stu.pku.edu.cn
+- Email: <a href="mailto:xingyue_elaine@stu.pku.edu.cn">xingyue_elaine@stu.pku.edu.cn</a>
 - GitHub: [fightforlearn](https://github.com/fightforlearn)
 - ORCID: [0009-0002-4718-1964](https://orcid.org/0009-0002-4718-1964)
 - Affiliation: Peking University · 北京大学

@@ -34,7 +34,15 @@ A graduate school-funded project. Built a postgraduate cultivation portrait anal
 
 **方法 / Methods**：多轮专家访谈 · 数据治理 · 指标构建 · 可解释机器学习
 
-*System screenshots to be added.*
+**System screenshots / 系统截图**
+
+<img src="{{ site.baseurl }}/images/grad_school_dashboard.png" alt="Postgraduate cultivation portrait — college-level dashboard" style="max-width: 700px; width: 100%; border: 1px solid #ddd; padding: 4px; margin-top: 16px;">
+
+<p style="text-align:center; color:#666; font-size:13px; margin-top:4px;">院系分析视图 · College-level analytics view</p>
+
+<img src="{{ site.baseurl }}/images/grad_school_analytics.png" alt="Research output and teaching index analytics" style="max-width: 700px; width: 100%; border: 1px solid #ddd; padding: 4px; margin-top: 16px;">
+
+<p style="text-align:center; color:#666; font-size:13px; margin-top:4px;">科研成果 / 教学优秀指数 / 教师维度对比 · Research, teaching, faculty analytics</p>
 
 ---
 
