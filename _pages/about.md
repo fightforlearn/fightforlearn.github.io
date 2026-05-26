@@ -131,7 +131,7 @@ h2 {
 ## News
 
 <ul class="news-list">
-  <li><span class="news-date">2026-05</span>综述论文《同行评议判断机制：理论解释与计算研究综述》进入投稿阶段</li>
+  <li><span class="news-date">2026-05</span>论文《GenAI 介入高校科研实践的风险感知结构及治理启示》投出至《图书情报工作》(CSSCI)，进入外审</li>
   <li><span class="news-date">2025-12</span>第一发明人专利《活动水平的测评方法、系统、装置及电子设备》获国家知识产权局授权</li>
   <li><span class="news-date">2026</span>参与国家自然科学基金面上项目《学术能力评价语言模型研究》（62577003）</li>
   <li><span class="news-date">2025</span>论文 <em>Reconfiguring global LIS education</em> 发表于 <em>The Electronic Library</em></li>
