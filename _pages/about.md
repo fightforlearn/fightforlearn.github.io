@@ -1,38 +1,82 @@
 ---
 permalink: /
 title: ""
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
 <style>
+.hero {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+  margin: 12px 0 36px 0;
+}
+.hero-photo {
+  flex: 0 0 36%;
+  max-width: 380px;
+}
+.hero-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #d8cdb4;
+  box-shadow: 0 2px 6px rgba(107, 79, 44, 0.08);
+}
+.hero-info {
+  flex: 1;
+  min-width: 0;
+}
+.hero-info h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 1.6em;
+  color: #6b4f2c;
+  letter-spacing: 1px;
+}
 .profile-fields {
   display: grid;
   grid-template-columns: max-content 1fr;
   column-gap: 28px;
-  row-gap: 10px;
-  margin: 6px 0 24px 0;
-  font-size: 1em;
+  row-gap: 14px;
+  margin: 0;
+  font-size: 1.02em;
+  line-height: 1.55;
 }
 .profile-fields dt {
+  font-size: 1em;
   font-weight: 600;
   color: #6b4f2c;
   white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  align-self: baseline;
 }
 .profile-fields dd {
-  margin: 0;
+  font-size: 1em;
+  font-weight: 400;
   color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+  align-self: baseline;
 }
+@media (max-width: 768px) {
+  .hero { flex-direction: column; }
+  .hero-photo { max-width: 260px; }
+}
+
 .news-list {
   list-style: none;
   padding: 0;
-  margin: 6px 0 24px 0;
+  margin: 6px 0 28px 0;
 }
 .news-list li {
-  padding: 6px 0 6px 0;
+  padding: 8px 0;
   border-bottom: 1px dashed #d8cdb4;
+  line-height: 1.55;
 }
 .news-list li:last-child { border-bottom: 0; }
 .news-list .news-date {
@@ -42,18 +86,47 @@ redirect_from:
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0;
+}
+.contact-list li {
+  padding: 4px 0;
+}
+.contact-list .contact-label {
+  display: inline-block;
+  min-width: 72px;
+  font-weight: 600;
+  color: #6b4f2c;
+}
+
+h2 {
+  color: #6b4f2c;
+  border-bottom: 1px solid #e5dcc4;
+  padding-bottom: 6px;
+  margin-top: 32px;
+}
 </style>
 
-## About
-
-<dl class="profile-fields">
-<dt>学校</dt><dd>北京大学 · 信息管理系</dd>
-<dt>专业方向</dt><dd>大数据管理与应用</dd>
-<dt>学历状态</dt><dd>博士研究生在读</dd>
-<dt>导师</dt><dd>黄文彬 长聘副教授</dd>
-<dt>主要研究方向</dt><dd>同行评议判断机制 · AI 在学术评价中的对齐问题</dd>
-<dt>此前经历</dt><dd>多年互联网教育产业从业</dd>
-</dl>
+<div class="hero">
+  <div class="hero-photo">
+    <img src="{{ site.baseurl }}/images/profile.png" alt="邢玥">
+  </div>
+  <div class="hero-info">
+    <h2>About</h2>
+    <dl class="profile-fields">
+      <dt>姓名</dt><dd>邢玥 · Yue Xing</dd>
+      <dt>学校</dt><dd>北京大学 · 信息管理系</dd>
+      <dt>专业方向</dt><dd>大数据管理与应用</dd>
+      <dt>学历状态</dt><dd>博士研究生在读</dd>
+      <dt>导师</dt><dd>黄文彬 长聘副教授</dd>
+      <dt>主要研究方向</dt><dd>同行评议判断机制 · AI 在学术评价中的对齐问题</dd>
+      <dt>此前经历</dt><dd>多年互联网教育产业从业</dd>
+    </dl>
+  </div>
+</div>
 
 ## News
 
@@ -67,6 +140,8 @@ redirect_from:
 
 ## Contact
 
-- 邮箱：<a href="mailto:xingyue_elaine@stu.pku.edu.cn">xingyue_elaine@stu.pku.edu.cn</a>
-- GitHub：[xingyue-pku](https://github.com/xingyue-pku)
-- ORCID：[0009-0002-4718-1964](https://orcid.org/0009-0002-4718-1964)
+<ul class="contact-list">
+  <li><span class="contact-label">邮箱</span><a href="mailto:xingyue_elaine@stu.pku.edu.cn">xingyue_elaine@stu.pku.edu.cn</a></li>
+  <li><span class="contact-label">GitHub</span><a href="https://github.com/xingyue-pku">xingyue-pku</a></li>
+  <li><span class="contact-label">ORCID</span><a href="https://orcid.org/0009-0002-4718-1964">0009-0002-4718-1964</a></li>
+</ul>
