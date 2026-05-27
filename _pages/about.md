@@ -16,6 +16,15 @@ redirect_from:
   margin: 6px 0 32px 0;
   box-shadow: 0 2px 10px rgba(107, 79, 44, 0.07);
 }
+/* stretch hero card to match the masthead nav width:
+   .page sits inside #main with Susy prefix(0.5/12) span(10/12) suffix(2/12).
+   Negative margins here cancel those offsets so card spans #main full width. */
+@media (min-width: 64em) {
+  .hero-card {
+    margin-left: calc(-0.5 / 10 * 100%);
+    margin-right: calc(-2 / 10 * 100%);
+  }
+}
 .hero {
   display: flex;
   gap: 36px;
@@ -124,7 +133,6 @@ h2 {
       <img src="{{ site.baseurl }}/images/profile.png" alt="邢玥">
     </div>
     <div class="hero-info">
-      <h2>About</h2>
       <dl class="profile-fields">
         <dt>姓名</dt><dd>邢玥 · Yue Xing</dd>
         <dt>学校</dt><dd>北京大学 · 信息管理系</dd>
