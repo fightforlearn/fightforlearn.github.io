@@ -8,11 +8,19 @@ redirect_from:
 ---
 
 <style>
+.hero-card {
+  background: #fffaf0;
+  border: 1px solid #d8cdb4;
+  border-radius: 12px;
+  padding: 28px 36px;
+  margin: 6px 0 32px 0;
+  box-shadow: 0 2px 10px rgba(107, 79, 44, 0.07);
+}
 .hero {
   display: flex;
   gap: 36px;
   align-items: flex-start;
-  margin: 12px 0 36px 0;
+  margin: 0;
 }
 .hero-photo {
   flex: 0 0 36%;
@@ -110,21 +118,23 @@ h2 {
 }
 </style>
 
-<div class="hero">
-  <div class="hero-photo">
-    <img src="{{ site.baseurl }}/images/profile.png" alt="邢玥">
-  </div>
-  <div class="hero-info">
-    <h2>About</h2>
-    <dl class="profile-fields">
-      <dt>姓名</dt><dd>邢玥 · Yue Xing</dd>
-      <dt>学校</dt><dd>北京大学 · 信息管理系</dd>
-      <dt>专业方向</dt><dd>大数据管理与应用</dd>
-      <dt>学历状态</dt><dd>博士研究生在读</dd>
-      <dt>导师</dt><dd>黄文彬 长聘副教授</dd>
-      <dt>主要研究方向</dt><dd>同行评议判断机制 · AI 在学术评价中的对齐问题</dd>
-      <dt>此前经历</dt><dd>多年互联网教育产业从业</dd>
-    </dl>
+<div class="hero-card">
+  <div class="hero">
+    <div class="hero-photo">
+      <img src="{{ site.baseurl }}/images/profile.png" alt="邢玥">
+    </div>
+    <div class="hero-info">
+      <h2>About</h2>
+      <dl class="profile-fields">
+        <dt>姓名</dt><dd>邢玥 · Yue Xing</dd>
+        <dt>学校</dt><dd>北京大学 · 信息管理系</dd>
+        <dt>专业方向</dt><dd>大数据管理与应用</dd>
+        <dt>学历状态</dt><dd>博士研究生在读</dd>
+        <dt>导师</dt><dd>黄文彬 长聘副教授</dd>
+        <dt>主要研究方向</dt><dd>同行评议判断机制 · AI 在学术评价中的对齐问题</dd>
+        <dt>此前经历</dt><dd>多年互联网教育产业从业</dd>
+      </dl>
+    </div>
   </div>
 </div>
 
