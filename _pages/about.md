@@ -18,11 +18,11 @@ redirect_from:
 }
 /* stretch hero card to match the masthead nav width:
    .page sits inside #main with Susy prefix(0.5/12) span(10/12) suffix(2/12).
-   Negative margins here cancel those offsets so card spans #main full width. */
+   Larger negative margins push card edges all the way to the nav edges. */
 @media (min-width: 64em) {
   .hero-card {
-    margin-left: calc(-0.5 / 10 * 100%);
-    margin-right: calc(-2 / 10 * 100%);
+    margin-left: -15%;
+    margin-right: -25%;
   }
 }
 .hero {
